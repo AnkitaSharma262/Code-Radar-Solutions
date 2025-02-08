@@ -5,9 +5,9 @@
 // }
 
 int main() {
-    float 3.14;
+    float num;
     printf("enter a floating-number :");
-    scanf("%f",&3.14);
-    printf("you entered :%f\n",3.14);
+    scanf("%f",&num);
+    printf("you entered :%f\n",num);
     return 0;
 }
