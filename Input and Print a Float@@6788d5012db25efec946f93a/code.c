@@ -6,8 +6,8 @@
 
 int main() {
     float a;
-    printf("enter a float :");
+    printf("enter a  :");
     scanf("%f",&a);
-    // printf("%s", welcome());
+    printf("%s", welcome());
     return 0;
 }
