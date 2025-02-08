@@ -4,7 +4,7 @@
 //     return "Welcome to Code Radar!";
 // }
 
- int main() {
+  int main() {
     char ch;
     printf("enter a single character :");
     scanf(" %c",&ch);
