@@ -8,6 +8,6 @@
     char ch;
     printf("enter a single character :");
     scanf(" %c",&ch);
-    printf("you enter :%c\n",ch);
+    printf("you entered :%c\n",ch);
     return 0;
 }
