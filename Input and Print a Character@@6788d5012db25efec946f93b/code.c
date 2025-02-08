@@ -6,7 +6,7 @@
 
   int main() {
     char ch;
-    printf("");
+    printf("",ch);
     scanf(" %c",&ch);
     printf("You entered :%c\n",ch);
     return 0;
