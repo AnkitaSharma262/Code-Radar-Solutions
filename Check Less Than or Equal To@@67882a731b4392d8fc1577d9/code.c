@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    inr a,b;
+    int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
     if (a<=b)
