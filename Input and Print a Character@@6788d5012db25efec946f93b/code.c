@@ -5,9 +5,9 @@
 // }
 
  int main() {
-    char string;
+    char ch;
     printf("enter a single character :\n");
-    scanf("%c",&string);
-    printf("you enter :%c\n",string);
+    scanf("%c",&ch);
+    printf("you enter :%c\n",ch);
     return 0;
 }
