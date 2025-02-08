@@ -7,6 +7,6 @@ int main() {
     if (a>b)
     printf("True");
     else
-    printf("flase");
+    printf("Flase");
     return 0;
 }
