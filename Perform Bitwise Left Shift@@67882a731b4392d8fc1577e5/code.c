@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    int shift b;
+    int shift= b;
     scanf("%d",&a);
     scanf("%d",&b);
     printf("%d",a << shift);  
