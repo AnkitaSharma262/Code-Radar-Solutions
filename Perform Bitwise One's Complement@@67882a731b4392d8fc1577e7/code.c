@@ -16,6 +16,6 @@ int main() {
     b = ~num;
     // Display results
     // printf(" %d\n", num);
-    printf(" %d\n", b);
+    printf(" %d", b);
     return 0;
 }
