@@ -9,18 +9,18 @@
 //     return 0;
 // }
 int main() {
-    int num, ones_complement;
+    int num, b;
 
     // Input from user
     printf("Enter an integer: ");
     scanf("%d", &num);
 
     // Performing one's complement
-    ones_complement = ~num;
+    b = ~num;
 
     // Display results
-    printf("Original Number: %d\n", num);
-    printf("One's Complement: %d\n", ones_complement);
+    printf(" %d\n", num);
+    printf(" %d\n", b);
 
     return 0;
 }
