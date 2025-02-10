@@ -9,11 +9,11 @@
 //     return 0;
 // }
 int main() {
-    int num, b;
+    int a, b;
     // Input from user
-    scanf("%d", &num);
+    scanf("%d", &a);
     // Performing one's complement
-    b = ~num;
+    b = ~a;
     // Display results
     // printf(" %d\n", num);
     printf(" %d", b);
