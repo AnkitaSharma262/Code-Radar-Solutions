@@ -15,7 +15,7 @@ int main() {
     // Performing one's complement
     b = ~num;
     // Display results
-    printf(" %d\n", num);
+    // printf(" %d\n", num);
     printf(" %d\n", b);
     return 0;
 }
