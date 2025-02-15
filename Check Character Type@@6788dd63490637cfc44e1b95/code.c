@@ -1,11 +1,12 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    char a,b;
+    char d,b;
     int c;
-    scanf("%c %c",&a,&b);
+    Vowel==a,e,i,o,u;
+    scanf("%c %c",&d,&b);
     scanf("%d",&c);
-    if(a&&b==a,e,i,o,u){
+    if(d==Vowel&&b==Vowel){
         printf("Vowel");
     }else{
         printf("Consonant");
