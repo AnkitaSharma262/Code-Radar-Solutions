@@ -1,15 +1,14 @@
-// Your code here...
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     char d;
-    // int c;
-    scanf("%c",&d);
-    // scanf("%d",&c);
-    if(d=='a'|| d=='e' d=='i' || d=='o' || d=='u'){
-        printf("Vowel");
+    scanf("%c", &d);
+    if (d == 'a' || d == 'e' || d == 'i' || d == 'o' || d == 'u' ||
+        d == 'A' || d == 'E' || d == 'I' || d == 'O' || d == 'U') {
+        printf("Vowel\n");
+    } else {
+        printf("Consonant\n");
     }
-    else{
-        printf("Consonant");
-    }
-   return 0;
+
+    return 0;
 }
