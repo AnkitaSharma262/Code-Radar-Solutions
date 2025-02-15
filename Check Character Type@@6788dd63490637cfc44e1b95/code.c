@@ -10,8 +10,8 @@ int main() {
     else if(d==5){
         printf("Digit");
     }
-     else {
-        printf("Consonant\n");
+    //  else {
+    //     printf("Consonant\n");
     }
 
     return 0;
