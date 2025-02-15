@@ -18,7 +18,7 @@ int main(){
         printf("%d",a*b);
         break;
         default:
-            pprintf("Invalid")
+            printf("Invalid");
     }
     return 0 ;
 }
