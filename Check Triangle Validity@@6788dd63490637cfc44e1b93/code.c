@@ -22,9 +22,9 @@ int main() {
 
     // Corrected comparison operator
     if (h * h == b * b + p * p) {
-        printf("Valid");
-    } else {
         printf("Invalid");
+    } else {
+        printf("Valid");
     }
 
     return 0;
