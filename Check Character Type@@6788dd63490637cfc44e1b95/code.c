@@ -8,7 +8,7 @@ int main(){
     if(a&&b==a,e,i,o,u){
         printf("Vowel");
     }else{
-        printf("Consonant")
+        printf("Consonant");
     }
    return 0;
 }
