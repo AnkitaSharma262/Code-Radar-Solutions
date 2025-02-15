@@ -3,10 +3,9 @@
 int main(){
     char d;
     // int c;
-    Vowel='a','e','i','o','u';
     scanf("%c",&d);
     // scanf("%d",&c);
-    if(d==Vowel){
+    if(d=='a'|| d=='e' d=='i' || d=='o' || d=='u'){
         printf("Vowel");
     }else{
         printf("Consonant");
