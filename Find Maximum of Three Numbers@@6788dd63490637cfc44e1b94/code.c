@@ -10,5 +10,6 @@ int main(){
         printf(b);
     }else{
         printf(c);
+    }
     return 0;
 }
