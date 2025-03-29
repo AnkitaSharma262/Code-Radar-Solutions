@@ -1,16 +1,21 @@
 // Your code here...
 #include <stdio.h>
-int isprime(int sum){
-    if(num<2)
-    return 0;
-}
-int t=2;
-while(t*t<=num){
-    if (num %1 ==0){
-        return 0;
+
+// Function to check if a number is prime
+int isPrime(int num) {
+    if (num < 2) {
+        return 0; // Numbers less than 2 are not prime
     }
-    t++;
-    return 1;
+
+    int i = 2;
+    while (i * i <= num) { // Loop until sqrt(num)
+        if (num % i == 0) {
+            return 0; // Not a prime number
+        }
+        i++; // Increment the divisor
+    }
+
+    return 1; // Prime number
 }
 int main() {
     int n;
