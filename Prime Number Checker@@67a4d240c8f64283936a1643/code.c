@@ -4,7 +4,7 @@ void isprime();
 int main() {
     int t;
     scanf("%d", &t);
-    while (t--) {
+    while (int t--) {
         int num;
         scanf("%d", &num);
         printf("%d\n", isPrime(num));
@@ -12,7 +12,7 @@ int main() {
     return 0;
 }
 void isprime(){
-    if(t%2==0){
+    if(int t%2==0){
         printf("1");
 
     }
