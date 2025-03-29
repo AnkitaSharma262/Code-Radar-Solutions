@@ -17,6 +17,7 @@ int isPrime(int num) {
 
     return 1; // Prime number
 }
+
 int main() {
     int n;
 
