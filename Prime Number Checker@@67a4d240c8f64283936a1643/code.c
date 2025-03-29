@@ -1,21 +1,21 @@
 // Your code here...
 #include <stdio.h>
 
-// Function to check if a number is prime
+
 int isPrime(int num) {
     if (num < 2) {
-        return 0; // Numbers less than 2 are not prime
+        return 0; 
     }
 
     int i = 2;
-    while (i * i <= num) { // Loop until sqrt(num)
+    while (i * i <= num) { 
         if (num % i == 0) {
-            return 0; // Not a prime number
+            return 0; 
         }
-        i++; // Increment the divisor
+        i++; 
     }
 
-    return 1; // Prime number
+    return 1; 
 }
 
 int main() {
